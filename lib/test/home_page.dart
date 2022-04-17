@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:get/get.dart';
 import 'getx_snakbar.dart';
+import 'inheritedwidgettest.dart';
 
 class MainApp extends StatelessWidget{
   const MainApp({Key? key}) : super(key: key);
@@ -48,7 +49,7 @@ class _HomePageState extends State<HomePage> {
             const Text(
               'You have pushed the button this many times:',
             ),
-            SnackBarExample(),
+            ProviderRoute(),
           ],
         ),
       ),
